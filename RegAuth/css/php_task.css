@@ -1,0 +1,57 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    font-size: 12px;
+    margin-left: 545px;
+    width: 93px;
+    height:30px;
+    margin-top:5px;
+}
+.instruction{
+  font-size: 11px;
+  line-height: 16px;
+  color: #678889;
+  text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
